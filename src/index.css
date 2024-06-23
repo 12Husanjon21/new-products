@@ -1,0 +1,140 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 1440px;
+}
+
+
+body {
+  max-width: 1440px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+
+header {
+  color: #0BA42D;
+  padding: 0 73px;
+  width: inherit;
+  background-color: #D5F8CF;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h3, 
+span {
+  color: #0BA42D;
+}
+
+.box-wrapper {
+  max-width: 1440px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+}
+
+.sortBtn {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+
+aside {
+  min-width: 170px;
+  padding: 15px 30px;
+  margin: 20px 20px;
+}
+
+aside h2 {
+  margin: 0;
+  margin-block: 10px;
+  padding-top: 10px;
+  border-top: 2px dashed black;
+}
+
+.rating-box {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  accent-color: #0BA42D;
+  border: 1px solid #0BA42D;
+}
+
+input[type="radio"]:checked {
+  border-radius: 5px;
+  accent-color: #0BA42D;
+  border: 1px solid #0BA42D;
+}
+
+input[type=radio].required::after {
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.container ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin-top: 47px;
+}
+
+aside input,
+label {
+  cursor: pointer;
+}
+
+.container img {
+  width: 100%;
+}
+
+li p {
+  width: 300px;
+}
